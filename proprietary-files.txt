@@ -79,12 +79,16 @@ vendor/etc/acdbdata/Mata/Mata_workspaceFile.qwsp
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.msm8998.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
 vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.msm8998.so
+vendor/lib64/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
@@ -1086,7 +1090,9 @@ vendor/lib64/sensors.mata.so
 vendor/lib64/sensor_calibrate.so
 
 # Thermal
+vendor/bin/hw/android.hardware.thermal@1.0-service.mata
 vendor/bin/thermal-engine
+vendor/etc/init/android.hardware.thermal@1.0-service.mata.rc
 vendor/etc/thermal-engine.conf
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
@@ -1295,6 +1301,7 @@ vendor/lib/libstagefright_soft_vpxenc.so
 vendor/lib/libtsext_inf.so
 vendor/lib/libvorbisidec.so
 vendor/lib/libvpx.so
+vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/vendor.essential.hardware.sidecar@1.0.so
 vendor/lib64/android.hardware.audio.common-util.so
 vendor/lib64/android.hardware.audio.common@2.0-util.so
@@ -1314,4 +1321,5 @@ vendor/lib64/libperfmgr.so
 vendor/lib64/libsi.so
 vendor/lib64/libsmemlog.so
 vendor/lib64/libtsext_inf.so
+vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/vendor.essential.hardware.sidecar@1.0.so
