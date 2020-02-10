@@ -17,7 +17,7 @@ PRODUCT_MODEL := PH-1
 PRODUCT_GMS_CLIENTID_BASE := android-essential
 TARGET_VENDOR := essential
 TARGET_VENDOR_PRODUCT_NAME := mata
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="mata-user 10 QQ1A.191205.017 499 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="mata-user 10 QQ1A.200105.007 515 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := essential/mata/mata:10/QQ1A.191205.017/499:user/test-keys
+BUILD_FINGERPRINT := essential/mata/mata:10/QQ1A.200105.007/515:user/test-keys

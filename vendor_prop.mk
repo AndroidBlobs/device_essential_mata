@@ -59,6 +59,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.vendor.vndk.version=27.1.0 \
     sys.vendor.shutdown.waittime=500 \
     telephony.lteOnCdmaDevice=1 \
+    vendor.audio.adm.buffering.ms=3 \
     vendor.audio.dolby.ds2.enabled=false \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.flac.sw.decoder.24bit=true \
