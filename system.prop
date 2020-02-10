@@ -191,6 +191,3 @@ vendor.audio.mqa.enable=true
 # end of device/essential/mata/system.prop
 
 #
-
-# LCD density
-ro.sf.lcd_density=440
