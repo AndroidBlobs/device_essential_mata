@@ -1,6 +1,4 @@
 -app/embms/embms.apk
--app/ims/lib/arm64/libimscamera_jni.so
--app/ims/lib/arm64/libimsmedia_jni.so
 -app/uceShimService/uceShimService.apk
 -framework/WfdCommon.jar
 -lib/libsdm-disp-apis.so
@@ -12,6 +10,8 @@
 -priv-app/WfdService/WfdService.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 bin/wfdservice
+etc/cne/SwimConfig.xml
+etc/cne/andsfCne.xml
 etc/init/wfdservice.rc
 etc/permissions/audiosphere.xml
 etc/permissions/cneapiclient.xml
